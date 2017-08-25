@@ -6,8 +6,9 @@
 	Wanna watch some videos from torrent-trackers without downloading them? <br/>
 	<button onclick="func()">Click me;)</button>
     <script>
+	var WebTorrent = require('webtorrent')
+    
     function func() {
-		var WebTorrent = require('webtorrent')
 		if (WebTorrent.WEBRTC_SUPPORT) {
 	  	// WebRTC is supported
 		  console.log('browser pashet');
