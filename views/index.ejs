@@ -4,8 +4,18 @@
 <body>
 	Hello, howdy? :) <br/>
 	Wanna watch some videos from torrent-trackers without downloading them? <br/>
-	<form action = "/" method = "post">
-        <input type="submit" name="button" value="Click here" />
-    </form>
+	<button onclick="func()">Click me;)</button>
+    <script>
+    function func() {
+		var WebTorrent = require('webtorrent')
+		if (WebTorrent.WEBRTC_SUPPORT) {
+	  	// WebRTC is supported
+		  console.log('browser pashet');
+		} else {
+		  // Use a fallback
+		  console.log('vse, browser ne pashet, rasxodims\'ya')
+		}
+	}
+	</script>
 </body>
 </html>
