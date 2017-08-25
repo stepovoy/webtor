@@ -1,0 +1,22 @@
+{
+  "name": "webtor",
+  "version": "1.0.0",
+  "description": "WebTorrent for Hypertube Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stepovoy/webtor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stepovoy/webtor/issues"
+  },
+  "homepage": "https://github.com/stepovoy/webtor#readme",
+  "dependencies": {
+    "express": "^4.15.4"
+  }
+}
