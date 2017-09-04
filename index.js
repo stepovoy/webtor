@@ -7,7 +7,9 @@ var app = express()
 var WebTorrent = require('webtorrent')
 
 app.get('/', function (req, res) {
-  res.render('index.ejs')
+  	res.render('index.ejs', {
+        WebTorrent : WebTorrent
+    });
 })
 
 // app.post('/', function (req, res) {

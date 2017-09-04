@@ -1,0 +1,17 @@
+{
+  "name": "webtor",
+  "description": "WebTorrent for Hypertube Project",
+  "main": "index.js",
+  "license": "ISC",
+  "homepage": "https://github.com/stepovoy/webtor",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "webtorrent": "^0.98.19"
+  }
+}
